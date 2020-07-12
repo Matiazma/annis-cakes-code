@@ -1,0 +1,217 @@
+$bgc: #E48694;
+$logoColor1: #d28385;
+$logocolor2: #D8F2EB;
+$headerSize: 60px;
+$ceroPadding: 0px;
+$regularText: 50px;
+
+
+body{
+    background-color: $bgc;
+    font-family: 'Lobster Two', cursive;
+}
+.header {
+    font-size: $headerSize;
+    padding: $ceroPadding;
+    text-decoration: underline;
+    text-decoration-color: $logocolor2;
+}
+.main-header__text {
+    padding: $ceroPadding;
+    margin: 0px;
+}
+.main-header {
+    display: flex;
+    justify-content: space-around;
+}
+.headerButton {
+    margin-top: 20px;
+}
+.jumbotron__text {
+    margin: 0px;
+    text-align: center;
+}
+.container-fluid {
+    padding: $ceroPadding;
+}
+a {
+    text-decoration: none;
+}
+.igBox {
+    justify-content: space-around;
+    display: flex;
+}
+.main-navbar {
+    background-color: #CC848E;
+}
+.button:hover {
+    background-color: $logoColor1;
+}
+.jumbotron {
+    background-color: $logocolor2;
+}
+.main-header {
+    height: $headerSize;
+    margin-bottom: 30px;
+}
+.carousel-inner__h3 {
+    font-size: $regularText;
+    color: $logocolor2;
+}
+.carousel-inner__p {
+    font-size: $headerSize/2;
+    text-decoration: none;
+    color: $logoColor1;
+}
+.main-footer {
+    background-color: $logocolor2;
+    border-radius: 15px;
+}
+.main-footer__text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: $logoColor1;
+}
+.main-productsFirstLine {
+    display: inline;
+    justify-content: space-around;
+}
+.main-productsFirstLine__text {
+    text-align: center;
+    font-size: $regularText;
+}
+.media-left {
+    padding: 0px 15px 0px 15px;
+}
+.media {
+    padding-top: 40px;
+}
+.media-body {
+    text-align: center
+}
+.btn-group :hover {
+    background-color: lightblue;
+}
+.main-igBox {
+    align-items: center;
+    justify-content: space-around;
+}
+.main-img__contacto {
+ padding: 20px;
+}
+.main-contacto__textBox {
+    padding-top: 20px;
+    text-align: center;
+}
+.main-contacto__text {
+    font-size: 26px;
+}
+.main-eventsFirstLine {
+    display: inline;
+    justify-content: space-around;
+    background-color: $logocolor2;
+}
+.main-eventsFirstLine__text {
+    text-align: center;
+    font-size: $regularText;
+    background-color: $logocolor2;
+    border-radius: 20px;
+}
+.thumbnail:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.2);
+}
+a.boton{
+	position: relative;
+	display: block;
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:black;
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background: lightseagreen;
+}
+a.boton:after,
+a.boton:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+a.boton:before{
+	left: -48%;
+}
+ 
+a.boton:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background: pink;
+}
+ 
+a.boton:hover:after,
+a.boton:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+ 
+a.boton:hover:after{
+	right: 130%;
+}
+ 
+a.boton:hover:before{
+	left: 130%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    background-color: $logoColor1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: $logocolor2;
+  color: $logoColor1;
+}
+.igLogo {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.logo {
+    margin-left: 15px;
+}
